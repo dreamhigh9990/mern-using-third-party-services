@@ -1,0 +1,63 @@
+{
+  "name": "memorial-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@rebass/forms": "^4.0.5",
+    "@uploadcare/react-widget": "^1.0.2",
+    "apisauce": "^1.0.5",
+    "emotion-theming": "^10.0.17",
+    "formik": "^1.5.8",
+    "history": "^4.9.0",
+    "hoist-non-react-statics": "^3.3.0",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "qs": "^6.8.0",
+    "react": "^16.9.0",
+    "react-clipboard.js": "^2.0.16",
+    "react-confirm": "^0.1.18",
+    "react-dom": "^16.9.0",
+    "react-modal": "^3.10.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "rebass": "^4.0.5",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "reduxsauce": "^1.1.0",
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  }
+}

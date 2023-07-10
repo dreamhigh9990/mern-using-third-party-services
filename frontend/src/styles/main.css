@@ -1,0 +1,116 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: Inter, serif;
+  font-weight: 400;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #383a44;
+  font-family: Inter, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.gray-back {
+  background: #fbfbfb;
+}
+
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+thead td {
+  font-weight: 800;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .ReactModal__Content {
+    border-radius: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    max-height: 100% !important;
+    overflow: auto !important;
+  }
+}
+
+.uploadcare--widget {
+  display: none;
+}
+
+.uploadcare--powered-by,
+.uploadcare--powered-by__link {
+  display: none;
+}
+
+.uploadcare--button {
+  color: #383a44;
+  border-color: #383a44;
+}
+
+.uploadcare--button:focus,
+.uploadcare--button:hover,
+.uploadcare--button:active {
+  color: #16171d;
+  border-color: #16171d;
+  background-color: #ebebeb;
+}
+
+.uploadcare--button_icon {
+  border-color: #fff;
+}
+
+.uploadcare--button_icon:focus,
+.uploadcare--button_icon:hover,
+.uploadcare--button_icon:active {
+  border-color: #fff;
+}
+
+.uploadcare--button_primary {
+  background-color: #383a44;
+  border-color: #383a44;
+  color: #fff;
+}
+
+.uploadcare--button_primary:focus,
+.uploadcare--button_primary:hover,
+.uploadcare--button_primary:active {
+  border-color: #16171d;
+  background-color: #16171d;
+  color: #fff;
+}
+
+.uploadcare--crop-sizes__item_current:before {
+  background-color: #383a44;
+}
+
+.uploadcare--progress_type_canvas {
+  color: #383a44;
+}
